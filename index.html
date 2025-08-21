@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niraj Kumar Das - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Internal CSS for specific home page styles */
+        .hero-section {
+            background: linear-gradient(135deg, #3b82f6, #1e40af);
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 0;
+        }
+
+        .hero-content {
+            text-align: center;
+            color: white;
+            max-width: 700px;
+            padding: 2rem;
+        }
+
+        .profile-image {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-image:hover {
+            transform: scale(1.05);
+        }
+
+        .intro-text {
+            font-size: 1.2rem;
+            line-height: 1.7;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">Niraj's Portfolio</div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <img src="23ad072.jpg" alt="Niraj Kumar Das Profile Picture" class="profile-image">
+                <h1 style="font-size: 3.2rem; margin-bottom: 1rem; font-weight: 700; text-shadow: 2px 2px 4px rgba(0,0,0,0.1);">Hello, I'm Niraj Das</h1>
+                <h2 style="font-size: 1.6rem; margin-bottom: 2rem; opacity: 0.9; font-weight: 400; letter-spacing: 1px;">AI & DS Student | Web Developer | Programmer</h2>
+                <p class="intro-text">
+                    I am an Artificial Intelligence and Data Science student at KPR Institute Of Engineering And Technology.
+                    I have a passion for building functional, modern, and visually appealing websites while exploring
+                    AI-driven solutions for real-world problems.
+                </p>
+                <div class="button-group">
+                    <a href="about.html" class="btn btn-primary">Learn More About Me</a>
+                    <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Niraj Kumar Das. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
